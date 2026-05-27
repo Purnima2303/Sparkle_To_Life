@@ -1,0 +1,25 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js
+/.next/
+/out/
+.next/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.log
+.env*.local
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Large files / cache
+.turbo
