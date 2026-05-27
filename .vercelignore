@@ -1,17 +1,21 @@
-# Large media files - main cause of failure
+# === LARGE FILES CAUSING DEPLOYMENT FAILURE ===
 public/videos/**
 videos/**
 *.mp4
 *.MP4
 
-# Build artifacts
-.next/cache/**
-.next/static/**
+# Build folders
+.next
+.next/cache
 .vercel
 
 # Dependencies
 node_modules
 
-# Misc
+# Environment
 .env
+.env.local
+.env*.local
+
+# Misc
 .DS_Store
