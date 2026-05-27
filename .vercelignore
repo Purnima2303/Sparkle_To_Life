@@ -1,6 +1,9 @@
-# Ignore large media files for deployment
-public/videos/*
-videos/*
+# Ignore large video files (main cause of deployment failure)
+public/videos/**
+videos/**
 *.mp4
+
+# Other common ignores
 .next/cache
 node_modules
+.env*.local
