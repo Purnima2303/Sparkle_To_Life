@@ -1,0 +1,6 @@
+# Ignore large media files for deployment
+public/videos/*
+videos/*
+*.mp4
+.next/cache
+node_modules
