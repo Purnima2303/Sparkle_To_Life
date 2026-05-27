@@ -144,7 +144,7 @@ export function MusicProvider({ children }) {
   useEffect(() => {
     let mounted = true;
 
-    fetch('/api/music-files')
+    fetch('/music-files.json')
       .then((response) => response.json())
       .then((data) => {
         if (!mounted) return;
