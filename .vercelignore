@@ -1,9 +1,17 @@
-# Ignore large video files (main cause of deployment failure)
+# Large media files - main cause of failure
 public/videos/**
 videos/**
 *.mp4
+*.MP4
 
-# Other common ignores
-.next/cache
+# Build artifacts
+.next/cache/**
+.next/static/**
+.vercel
+
+# Dependencies
 node_modules
-.env*.local
+
+# Misc
+.env
+.DS_Store
